@@ -1,0 +1,25 @@
+<div class="edSection"  id="edSection">
+    <h1 class="skills text-center">Education</h1> 
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-8 offset-md-2 col-sm-12" id="edSections">
+                <div class="eDetails">
+                    <div class="row my-5 boxShado" *ngFor="let eve of eduArray">
+                        <div class="col-md-4 col-sm-12 p-0">
+                            <div class="gradDetails">
+                                <img src="{{eve.img}}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 p-0">
+                            <div class="gDetails">
+                                <h3>{{eve.courseName}}</h3>
+                                <h3>{{eve.clgName}}</h3>
+                                <h3>{{eve.university}}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

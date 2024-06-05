@@ -1,0 +1,81 @@
+.navbar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    .navbar-brand{
+        height: 70px;
+        padding: 0;
+        margin: 0;
+        img{
+            height: 100%;
+            object-fit: cover;
+            transition: all .2s ease-in-out;
+        }
+        img:focus,
+        img:active,
+        img:hover{
+            transform: scale(1.1);
+        }
+    }
+    .navbar-nav{
+            display: flex;
+            margin-right: 10px;
+            list-style: none;
+            .socialBrand {
+                padding: .25em 2.375em .275em 0;
+                margin: 0 10px 0 0;
+                .socialBrands {
+                    color: #fff;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-weight: 500;
+                    transition: all .4s ease-in-out;
+                    position: relative;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .socialBrands:hover,
+                .socialBrands:active,
+                .socialBrands:focus{
+                    color: orangered;
+                    transform: scale(1.5);
+                    text-shadow: .5rem 1rem 2rem rgba(#000, .2);
+                    /* // text-decoration: underline; */
+                }
+                .socialBrands::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: orangered;
+                    transition: width 0.5s ease;
+                }
+                .socialBrands:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+}
+nav.mainNav.navbar.fixed-top.p-0.navbar-expand-lg.navbar-light.bg-white {
+    background-color: transparent;
+}
+.nav-active{
+    background-color: #b6e117;
+    transition: background-color .6s ease-in-out;
+}
+.navbar-light .navbar-nav 
+.active>.socialBrands, .navbar-light 
+.navbar-nav .socialBrands.active, 
+.navbar-light .navbar-nav .socialBrands.show, 
+.navbar-light .navbar-nav .show>.socialBrands {
+    color: orangered;
+}
+.navbar-light .navbar-nav 
+.socialBrands:focus, .navbar-light 
+.navbar-nav .socialBrands:hover {
+    color: rgb(0, 80, 255);
+}

@@ -1,0 +1,27 @@
+.card{
+    .card-body{
+        padding: 10px !important;
+        h3 {
+            font-size: 29px !important;
+            text-align: center;
+            padding: 14px 0;
+        }
+        .about-data{
+            width: 365px;
+            ul {
+                padding: 0 22px;
+                font-size: 18px;
+                line-height: 1.7;
+            }
+        }
+        .basic-data{
+            width: 365px;
+            strong{
+                font-size: 19px;
+            }
+            .fontSize{
+                font-size: 17px;
+            }
+        }
+    }
+}

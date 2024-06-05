@@ -1,0 +1,63 @@
+.section{
+    margin-top: 68px;
+    .contact-section{
+        padding: 60px;
+        background-image: url('./../../../../assets/image/contact.jpg');
+        background: linear-gradient(rgb(0, 0, 0, .5)) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .card{
+            background-color: rgb(255, 255, 255, .9);
+            padding: 30px;
+            .input-group{
+                border: 1px solid #ced4da;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                background-color: #fff;
+                .input-group-prepend span{
+                    background-color: transparent !important;
+                    border: none;
+                }
+                .inputs{
+                    border: none;
+                    background-color: transparent !important;
+                }
+                .form-control:focus{
+                    // outline: none !important;
+                    box-shadow: none;
+                }
+            }
+            textarea.form-control {
+                border: none !important;
+                border-bottom: 1px solid #ced4da !important;
+                border-radius: none !important;
+            }
+            textarea:focus{
+                box-shadow: none;
+                outline: none !important;
+            }
+        }
+    }
+}
+.card-body{
+    // p a{
+    //     color: #000;
+    //     text-decoration: none;
+    // }
+    p a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+}
+// .contact-section::before{
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     bottom: 0;
+//     height: 100%;
+//     width: 100%;
+//     background-color: rgba(44,44,44,.5);
+//     overflow: hidden;
+// }

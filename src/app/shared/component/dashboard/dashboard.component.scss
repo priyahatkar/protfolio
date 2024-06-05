@@ -1,0 +1,94 @@
+.profile-section{
+    // margin-top: 60px;
+    background-image: url(./../../../../assets/image/laptop.jpg);
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    .skills{
+        color: #fff;
+    }
+    
+    .card-Details {
+        .priHaeding {
+            font-size: 40px !important;
+            font-weight: 500;
+        }
+        .secHeading{
+            display: flex;
+            justify-content: center;
+            h3{
+                font-size: 20px !important;
+            }
+            span {
+                border-right: 2px solid #fff;
+                height: 28px;
+                margin: 0 18px;
+            }
+        }
+    }
+}
+.btnContact{
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #889105;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btnCv{
+    color: #000;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.card-info{
+    margin-top: 6rem;
+    .img-fluid{
+        border: 5px solid #eef676;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+        mix-blend-mode: luminosity;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .img-fluid:hover{
+        mix-blend-mode: normal;
+    }
+}
+.btnCv:hover{
+    color: #fff;
+    background-color: #889105;
+    border: 2px solid #fff;
+}
+.btnContact:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #889105;
+}
+
+.profile-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(55, 55, 57, 0.483);
+}
+
+@media(max-width: 575px){
+    .card-info{
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-info{
+        margin-top: 10px !important;
+    }
+}

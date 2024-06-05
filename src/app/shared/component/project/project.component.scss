@@ -1,0 +1,74 @@
+// .projectSection{
+//     margin-top: 65px;
+//     padding: 70px;
+//     background-color: rgba(230, 218, 206, 1);
+//     .skills{
+//         text-align: center;
+//         margin: 40px 0;
+//         color: #fff;
+//         font-weight: 600;
+//         text-shadow: 2px 2px 4px #000;
+//     }
+//     .workInfos{
+//         background-color: #f2f3f7;
+//         padding: 30px;
+//         margin-bottom: 15px;
+//         box-shadow: 0px 2px 6px 0px #000;
+//         .workInfo{
+//             display: flex;
+//             justify-content: space-between;
+//             margin-bottom: 15px;
+//             h3{
+//                 margin: 0;
+//             }
+//         }
+//         .proDetail{
+//             margin-top: 5px;
+//             display: flex;
+//             h4{
+//                 margin: 0 5px;
+//             }
+//         }
+//     }
+// }
+// h4:not(:last-child){
+//     font-weight: 500;
+// }
+
+.workSection{
+    padding: 30px 0;
+    .workInfos{
+        background-color: #f2f3f7;
+        padding: 30px;
+        margin-bottom: 15px;
+        box-shadow: 0px 8px 14px -5px rgba(0, 0, 0, 0.7);
+        .workInfo{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            h3{
+                margin: 0;
+            }
+        }
+        .proDetail{
+            margin-top: 5px;
+            display: flex;
+            h4{
+                margin: 0 5px;
+            }
+        }
+    }
+}
+h4:not(:last-child){
+    font-weight: 500;
+}
+.textPrimary{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.textSec{
+    color: firebrick;
+    font-size: 18px;
+    font-weight: 500;
+}
