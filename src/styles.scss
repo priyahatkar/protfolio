@@ -18,3 +18,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-weight: 600 !important;
     text-shadow: 2px 9px 3px rgb(172, 172, 173);
 }
+
+@media(max-width: 575px){
+    .skills{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+}
